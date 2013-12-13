@@ -7,6 +7,11 @@
     <classEntry path="com.ltcspy.vo.MarketOrderVO"/>
     <classEntry path="com.ltcspy.vo.BidVO"/>
     <classEntry path="com.ltcspy.vo.AskVO"/>
+    <classEntry path="com.ltcspy.vo.TradeHistoryVO"/>
+    <classEntry path="com.ltcspy.BTCEUrlLoader"/>
+    <classEntry path="com.ltcspy.DepthLoadedEvent"/>
+    <classEntry path="com.ltcspy.TickerLoadedEvent"/>
+    <classEntry path="com.ltcspy.HistoryLoadedEvent"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
