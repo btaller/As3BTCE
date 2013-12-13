@@ -12,6 +12,7 @@
     <classEntry path="com.ltcspy.DepthLoadedEvent"/>
     <classEntry path="com.ltcspy.TickerLoadedEvent"/>
     <classEntry path="com.ltcspy.HistoryLoadedEvent"/>
+    <classEntry path="Example"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
