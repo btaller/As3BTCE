@@ -7,8 +7,6 @@ package
 	import com.ltcspy.vo.DepthVO;
 	import com.ltcspy.vo.TickerVO;
 	import com.ltcspy.vo.TradeHistoryVO;
-	
-	import flash.events.Event;
 
 	public class Example
 	{
@@ -18,7 +16,10 @@ package
 			BTCEComm.instance.addEventListener(DepthLoadedEvent.NAME, depthLoaded);
 			BTCEComm.instance.addEventListener(HistoryLoadedEvent.NAME, historyLoaded);
 			BTCEComm.instance.addEventListener(TickerLoadedEvent.NAME, tickerLoaded);
+			
 			BTCEComm.instance.getDepthUSD();
+			BTCEComm.instance.getTickerUSD();
+			BTCEComm.instance.getTradesUSD();
 		}
 		
 		protected function tickerLoaded(event:TickerLoadedEvent):void
